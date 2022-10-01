@@ -1,0 +1,14 @@
+name: WOKTutorial
+version: '${project.version}'
+main: woktutorial.woktutorial.WOKTutorial
+api-version: 1.19
+commands:
+  fly:
+    description: 날아다니는 기능을 끄거나 킨다.
+    usage: /fly
+    aliases: f
+    permission: fly
+    permission-message: 당신은 이 기능을 사용할수 없습니다.
+  menu:
+    description: 빠른이동 메뉴를 연다.
+    usage: /menu
