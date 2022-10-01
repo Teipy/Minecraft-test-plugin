@@ -20,7 +20,7 @@ public final class WOKTutorial extends JavaPlugin {
         Bukkit.getLogger().info("Hello World");
 
         saveDefaultConfig();
-
+        // asd
         List<String> kitItems = (List<String>) getConfig().getList("kit");
         for (String itemname : kitItems) {
             Bukkit.getLogger().info(itemname);
