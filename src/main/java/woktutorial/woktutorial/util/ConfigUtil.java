@@ -9,7 +9,7 @@ import java.io.File;
 public class ConfigUtil {
     private File file;
     private FileConfiguration config;
-
+    // as
     public ConfigUtil(Plugin plugin, String path) {
         this(plugin.getDataFolder().getAbsolutePath() + "/" + path);
     }
